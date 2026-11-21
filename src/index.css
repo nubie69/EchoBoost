@@ -146,4 +146,19 @@ select {
   .eb-button-ghost:hover {
     background: rgba(101, 255, 154, 0.08);
   }
+
+  .hero-heading {
+    background: linear-gradient(135deg, #f2f7f5 12%, #a9bbb3 72%, #65ff9a 115%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(rgba(101, 255, 154, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(101, 255, 154, 0.035) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 75%, transparent 100%);
+  }
 }
